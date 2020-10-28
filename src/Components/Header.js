@@ -21,7 +21,7 @@ const Header = () => {
             </a>
             <a
               className="btn btnColor"
-              href="https://1drv.ms/b/s!AhJEfkE7YCh9k3KR6DmOzy6RqEa3"
+              href="https://docs.google.com/document/d/1A769j-yg7Qc5zOAEeaTVMbS-6k-Qk3li85m4nYn-5p4/edit?usp=sharing"
             >
               <i className="fab fa-file-text" aria-hidden="true"></i>Resume
             </a>
