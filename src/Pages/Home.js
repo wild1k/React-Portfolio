@@ -1,6 +1,6 @@
 import React from "react";
 import portfolioPic from "../utils/portfoliopic.JPG";
-
+import "./home.css";
 
 
 const Home = () => {
@@ -12,23 +12,23 @@ const Home = () => {
                 <div className="container ">
                   <div className="row">
                     <div className="col-sm col-md col-lg d-flex justify-content-center">
+                      <div>
                       <img
                         src={portfolioPic}
                         alt="professional"
-                        height="300"
-                        width="350"
-                        className="img-fluid rounded"
+                        height="100"
+                        width="100"
+                        className="img-fluid rounded imgPro"
                       />
+                      </div>
                     </div>
 
                     <div className="col-sm col-md col-lg">
                       <p>
-                        Hi, My name is Cassandra and I am a graduate from the
-                        University of Washington's Full-Stack Web Application BootCamp. I have studied web development
-                        in the past and currently my skills set includes the
-                        following:{" "}
+                        Recent graduate from the
+                        University of Washington's Full-Stack Web Application BootCamp.
                       </p>
-                      <br />
+                
                       <ul>
                         <li>React</li>
                         <li>KanBan Boards</li>
@@ -45,7 +45,7 @@ const Home = () => {
                         <li>HTML</li>
                         <li>CSS</li>
                       </ul>
-                      <br />
+                
                       <p>
                         2020 Full-Stack Web developer: University of Washington{" "}
                         <br /> 2006 Bachelor of Science Degree: Missouri State

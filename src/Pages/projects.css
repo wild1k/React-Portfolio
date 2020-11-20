@@ -1,0 +1,43 @@
+
+/* positions the project images  */
+.projCont {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  
+
+}
+/* adds shadow boxes to projects for some depth and styling */
+.imgCode{
+    z-index: 1;
+    box-shadow: 10px 20px grey;
+}
+/* adds deployed link button to projects on projects page */
+.projBtn {
+    position: absolute;
+    background-color: aqua;
+    border: purple 2px solid;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    color: gray;
+    top: 70%;
+    right: 55%;
+    font-size: small;
+    z-index: 1;
+}
+/* adds code on gitHub button on projects on portfolio page */
+.projBtn2 {
+    position: absolute;
+    background-color: aqua;
+    border: purple 2px solid;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    color: gray;
+    top: 70%;
+    right: 25%;
+    font-size: small;
+    z-index: 1;
+}
+

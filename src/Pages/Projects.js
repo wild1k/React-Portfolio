@@ -5,7 +5,7 @@ import pure2 from "../utils/ProjectsImages/pure2.png";
 import passwordGen from "../utils/ProjectsImages/passwordGen.png";
 import gatherNow from "../utils/ProjectsImages/gatherNow.png";
 import burgerApp from "../utils/ProjectsImages/burgerApp.png";
-
+import "./projects.css";
 
 const Projects = () => {
   return (
@@ -14,27 +14,29 @@ const Projects = () => {
         <h2>Portfolio</h2>
 
         <div className="row">
-          <div className="col-md col-sm d-flex justify-content-center">
-            <a href="https://wild1k.github.io/Wavel-/" target="#blank">
+          <div className="col-md col-sm d-flex justify-content-center projCont">
+  
               <img
                 src={wavel}
                 alt="wavel project"
                 height="300"
                 width="350"
-                className="imgSize my-5 img-thumbnail "
-              />
-            </a>
+                className="imgSize my-5 img-thumbnail imgCode"/>
+         
+            <a href="https://wild1k.github.io/Wavel-/" target="#blank"><button class="projBtn">Deployed Link</button></a>
+            <a href="https://github.com/wild1k/Wavel-" target="#blank"><button class="projBtn2">Code on Github</button></a>
           </div>
-          <div className="col-md col-sm d-flex justify-content-center">
-            <a href="https://purecloudone.herokuapp.com/" target="#blank">
+          <div className="col-md col-sm d-flex justify-content-center projCont">
+ 
               <img
                 src={pure2}
                 alt="purecloud project"
                 height="350"
                 width="350"
-                className="imgSize img-fluid my-5 img-thumbnail"
+                className="imgSize img-fluid my-5 img-thumbnail imgCode"
               />{" "}
-            </a>
+           <a href="https://purecloudone.herokuapp.com/" target="#blank"><button class="projBtn">Deployed Link</button></a>
+           <a href="https://github.com/zackdeacon/Prime_Suspects" target="#blank"><button class="projBtn2">Code on Github</button></a>
           </div>
         </div>
         <div className="row">
