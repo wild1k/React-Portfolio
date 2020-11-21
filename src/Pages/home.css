@@ -1,10 +1,10 @@
 /* styles the about me section on home page  */
 section {
-    background-color: purple ;
+    background-image: url('../utils/repImg/deep_sea.jpg');
     color: white;
    max-width: 60%;
    margin-left: 25%;
-   border: dashed forestgreen 3px;
+   border: dashed  3px;
  padding-top: 30px;
   }
 

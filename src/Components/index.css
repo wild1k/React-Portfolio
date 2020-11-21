@@ -1,9 +1,14 @@
 .header {
-  background-color: white;
-  background-repeat: no-repeat;
-  background-size: 100%;
   color: #a23cac;
   font-family: "Metal Mania", cursive;
+}
+
+.seattleImg {
+  background-image: url('../utils/repImg/abstract_musical_img.jpg');
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contactForm {
@@ -18,15 +23,23 @@ h2 {
   justify-content: center;
 }
 
+section {
+  background-color: purple ;
+  color: white
+}
 
 .footer {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0px;
   width: 100%;
-  background-color: white;
-  color: #2e5b22;
+  background-image: url('../utils/repImg/seattle_img.jpg');
+  color: #eef3f5;
   text-align: center;
   height: auto;
   padding-bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: x-large;
+  font-weight: bold;
 }

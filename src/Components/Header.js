@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import seattle_img from "../utils/repImg/seattle_img.jpg";
 // import profileBackGround from '../utils/profileBackGround.jpg';
 
 const Header = () => {
   return (
     <header>
-      <div className="jumbotron jumbotron-fluid header">
-        <div className="container">
+        
+      <div className="jumbotron jumbotron-fluid header seattleImg">
+
+        <div className="container ">
           <h1 className="display-4">Cassandra Chamberlain</h1>
 
           <div>
