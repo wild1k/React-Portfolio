@@ -6,6 +6,7 @@ section {
    margin-left: 25%;
   border-radius: 10px;
  padding-top: 30px;
+ background-position: center;
   }
 
   /* positions and sizes image on home page */
@@ -15,4 +16,14 @@ section {
    margin: 10px 50px;
      z-index: 1;
     box-shadow:  25px 50px rgba(0, 0, 0, 0.3);
+  }
+
+  section:hover {
+    background-image: url('../utils/repImg/motorcycle_painted_look.jpg');
+    transition: all, 3s, ease-in;
+    background-repeat: no-repeat;
+    width: 900px;
+    color: white;
+    font-family: "Metal Mania", cursive;
+    font-weight: 90px;
   }

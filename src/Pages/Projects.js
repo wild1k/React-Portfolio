@@ -1,10 +1,7 @@
 import React from "react";
-import wavel from "../utils/ProjectsImages/wavel.png";
+import Wavel from "../utils/ProjectsImages/wavel.png";
 import quizPic from "../utils/ProjectsImages/quizPic.png";
 import pure2 from "../utils/ProjectsImages/pure2.png";
-import passwordGen from "../utils/ProjectsImages/passwordGen.png";
-import gatherNow from "../utils/ProjectsImages/gatherNow.png";
-import burgerApp from "../utils/ProjectsImages/burgerApp.png";
 import "./projects.css";
 
 const Projects = () => {
@@ -16,8 +13,8 @@ const Projects = () => {
         <div className="row">
           <div className="col-md col-sm d-flex justify-content-center projCont">
             <img
-              src={wavel}
-              alt="wavel project"
+              src={Wavel}
+              alt="Travel project"
               height="300"
               width="350"
               className="imgSize my-5 img-thumbnail imgCode"

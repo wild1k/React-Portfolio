@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import seattle_img from "../utils/repImg/seattle_img.jpg";
-// import profileBackGround from '../utils/profileBackGround.jpg';
 
 const Header = () => {
   return (
@@ -39,7 +37,7 @@ const Header = () => {
                 <li className="nav-link">Projects</li>
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item worldImg">
               <Link to="/">
                 <li className="nav-link">Home</li>
               </Link>

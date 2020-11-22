@@ -12,7 +12,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/cassandra-chamberlain-875794166/"
               className="li-ic"
             >
-              <i className="fab fa-linkedin-in fa-lg white-text fa-2x "> </i>
+              <h2><i className="fab fa-linkedin-in fa-lg white-text fa-2x"> </i></h2>
             </a>
             <hr />
             <div className="footer-copyright py-3 footerContent">

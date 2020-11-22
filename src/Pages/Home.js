@@ -1,4 +1,5 @@
 import React from "react";
+import Projects from "../Pages/Projects";
 import portfolioPic from "../utils/portfoliopic.JPG";
 import "./home.css";
 
@@ -6,13 +7,13 @@ import "./home.css";
 const Home = () => {
   return (
     <div className='mb-5'>
-        <section className=''>
+        <section>
           <div className="container fluid ">
               <div>
-                <div className="container ">
+                <div className="container">
                   <div className="row">
                     <div className="col-sm col-md col-lg d-flex justify-content-center">
-                      <div>
+               
                       <img
                         src={portfolioPic}
                         alt="professional"
@@ -20,7 +21,7 @@ const Home = () => {
                         width="100"
                         className="img-fluid rounded imgPro"
                       />
-                      </div>
+                  
                     </div>
 
                     <div className="col-sm col-md col-lg">
@@ -58,6 +59,7 @@ const Home = () => {
               </div>
           </div>
         </section>
+        <Projects/>
     </div>
   );
 }

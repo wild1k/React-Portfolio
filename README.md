@@ -1,5 +1,7 @@
 Checkout my portfolio at https://cassandra-chamberlain.herokuapp.com/
 
+A Mobile-First React Portfolio Application
+
 As a User I want to know more about Cassandra Chamberlain,
 I expect to see projects she has completed as well as links to the code on GitHub, and the deployed site.
 As a User I want to be able to see a Resume, and ways to connect with Cassandra.
