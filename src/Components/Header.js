@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
         
-      <div className="jumbotron jumbotron-fluid header seattleImg">
+      <div className="jumbotron jumbotron-fluid header musicImg">
 
         <div className="container ">
           <h1 className="display-4">Cassandra Chamberlain</h1>

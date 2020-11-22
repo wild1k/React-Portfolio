@@ -1,45 +1,44 @@
+/* color and font on header */
 .header {
   color: #a23cac;
   font-family: "Metal Mania", cursive;
 }
-
-.seattleImg {
-  background-image: url('../utils/repImg/abstract_musical_img.jpg');
-  height: 50vh;
+/* background image for header  */
+.musicImg {
+  background-image: url("../utils/repImg/abstract_musical_img.jpg");
+  height: auto;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.contactForm {
-  border: 2px solid;
-  border-radius: 12px;
-  background-color: #17b3e2;
-  color: black;
-}
-
+/* portfolio heading for portfolio page */
 h2 {
   display: flex;
   justify-content: center;
 }
 
-section {
-  background-color: purple ;
-  color: white
-}
-
+/* params for footer */
 .footer {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0px;
   width: 100%;
-  background-image: url('../utils/repImg/seattle_img.jpg');
-  color: #eef3f5;
-  text-align: center;
+  color: white;
+}
+/* seattle Image for footer */
+.seattleImg {
+  background-image: url("../utils/repImg/seattle_img.jpg");
   height: auto;
   padding-bottom: 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: x-large;
-  font-weight: bold;
+}
+/* text in footer */
+.footerContent {
+  background: rgba(0, 0, 255, 0.5);
+  font-family: "Metal Mania", cursive;
+  text-align: center;
+  font-size: large;
+  font-weight: 90;
 }
