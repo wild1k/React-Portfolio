@@ -1,0 +1,38 @@
+/* params for footer */
+.footer {
+    position: bottom;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+  }
+
+  
+/* seattle Image for footer */
+.seattleImg {
+    background-image: url("../utils/repImg/seattleSky.jpg");
+    height: auto;
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+  }
+  .seattleImg:hover {
+    background-image: url("../utils/repImg/Kc.jpg");
+    height: auto;
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: purple;
+  }
+  /* text in footer */
+  .footerContent {
+    /* background: rgba(0, 0, 255, 0.5); */
+    font-family: "cursive";
+    text-align: left;
+    font-size: large;
+    font-weight: 90;
+    color: green;
+  }

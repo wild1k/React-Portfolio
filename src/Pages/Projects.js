@@ -6,8 +6,9 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div className="container  mobile-responsive">
-      <div className=" mb-5">
+ <>
+    <div className="mobile-responsive">
+    
         <h2>My Work</h2>
 
         <div className="row">
@@ -68,8 +69,14 @@ const Projects = () => {
           </a>
           </div>
          </div>
+
+
 </div>
+
+<div className="emptyDiv">
+  <br/>
 </div>
+</>
   );
 };
 

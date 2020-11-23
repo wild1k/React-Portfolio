@@ -1,0 +1,46 @@
+/* color and font on header */
+.header {
+  color: #a23cac;
+  font-family: "Metal Mania", cursive;
+ -webkit-text-stroke: 2px black;
+ margin-bottom: 0;
+ 
+}
+/* background image for header  */
+.nightSkyImg {
+  background-image: url("../utils/repImg/nightSky\ \(1\).jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.nightSkyImg:hover {
+  background-image: url("../utils/repImg/campNight\ \(1\).jpg");
+  height: auto;
+  width: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* img for home button */
+.worldImg {
+  background-image: url('../utils/repImg/vector-colorful-abstract-world-symbol.jpg');
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+ 
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  
+}

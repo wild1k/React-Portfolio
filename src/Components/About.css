@@ -1,0 +1,33 @@
+/* styles the about me section on home page  */
+section {
+
+    background-image: url('../utils/repImg/woman_working.jpg');
+    color: purple;
+   max-width: 60%;
+   margin-left: 25%;
+  border-radius: 10px;
+
+ background-position: center;
+  }
+
+  /* Styling on About component for professional head shot Image */
+  .imgPro {
+    padding-top: 60px;
+    height: 70%;
+    width: 30%;
+   margin: 10px 50px;
+     z-index: 1;
+    box-shadow:  30px 80px rgba(0, 0, 0, 0.3);
+  }
+
+  section:hover {
+    background-image: url('../utils/repImg/beach\ \(1\).jpg');
+    transition: all, 3s, ease-in;
+    background-repeat: no-repeat;
+    width: 900px;
+    color:  black;
+    font-family: "cursive";
+    font-weight: 90px;
+
+  }
+

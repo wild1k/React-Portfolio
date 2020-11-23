@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -24,6 +24,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    
   );
 };
 
