@@ -24,6 +24,9 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: linear;
+  transition-delay: 1s;
+  transition-duration: 2s;
 }
 
 
@@ -38,9 +41,10 @@
 }
 
 .nav-link {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
+  -webkit-text-stroke: 1px white;
+  font-weight: 90px;
+  font-size: 40px;
   text-align: left;
-  
 }
+
+

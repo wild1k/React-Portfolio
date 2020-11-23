@@ -14,7 +14,7 @@
     padding-bottom: 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 
     
   }
@@ -24,15 +24,15 @@
     padding-bottom: 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     color: purple;
   }
   /* text in footer */
   .footerContent {
-    /* background: rgba(0, 0, 255, 0.5); */
+    background: rgba(150, 35, 165, 0.5);
     font-family: "cursive";
-    text-align: left;
+    text-align: center;
     font-size: large;
     font-weight: 90;
-    color: green;
+    color: rgb(250, 249, 250);
   }

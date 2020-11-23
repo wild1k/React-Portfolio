@@ -8,18 +8,20 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-12 col-md-8 col-sm-4 py-3">
 
-            <a
+     
+            <hr />
+            <div className="footer-copyright py-3 footerContent">
+                       <h4>Email me: CassandraChamberlain@ymail.com</h4>
+             <h4> © 2020 Created By: Cassandra Chamberlain</h4>
+              <hr/>
+     
+            </div>
+                   <a
               href="https://www.linkedin.com/in/cassandra-chamberlain-875794166/"
               className="li-ic"
             >
-              <h2><i className="fab fa-linkedin-in fa-lg white-text fa-2x"> </i></h2>
+              <h4><i className="fab fa-linkedin-in fa-lg white-text fa-2x"> </i></h4>
             </a>
-            <hr />
-            <div className="footer-copyright py-3 footerContent">
-              © 2020 Created By: Cassandra Chamberlain
-              <hr/>
-              Email me: CassandraChamberlain@ymail.com
-            </div>
           </div>
         </div>
       </div>

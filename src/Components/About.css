@@ -1,13 +1,21 @@
 /* styles the about me section on home page  */
 section {
-
+  
     background-image: url('../utils/repImg/woman_working.jpg');
     color: purple;
    max-width: 60%;
    margin-left: 25%;
   border-radius: 10px;
-
+  font-size: 20px;
  background-position: center;
+ font-weight: 90px;
+ 
+  }
+  
+
+/* aligns the content in About section vertically */
+  section, .row {
+    padding: 10px;
   }
 
   /* Styling on About component for professional head shot Image */
@@ -18,16 +26,17 @@ section {
    margin: 10px 50px;
      z-index: 1;
     box-shadow:  30px 80px rgba(0, 0, 0, 0.3);
+
+  
   }
 
   section:hover {
     background-image: url('../utils/repImg/beach\ \(1\).jpg');
-    transition: all, 3s, ease-in;
+    transition: ease;
     background-repeat: no-repeat;
-    width: 900px;
     color:  black;
     font-family: "cursive";
-    font-weight: 90px;
-
+  
+    transition-duration: 2s;
   }
 
