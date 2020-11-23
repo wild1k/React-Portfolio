@@ -7,9 +7,9 @@ import "./projects.css";
 const Projects = () => {
   return (
  <>
-    <div className="mobile-responsive">
+    <div className="mobile-responsive container">
     
-        <h2>My Work</h2>
+        <h1>My Work</h1>
 
         <div className="row">
           <div className="col-md col-sm d-flex justify-content-center projCont">

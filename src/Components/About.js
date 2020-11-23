@@ -5,7 +5,7 @@ import portfolioPic from "../utils/portfoliopic.JPG";
 export default function About(){
 
     return(
-<section className="container">
+<section className="container mobile-responsive">
         <div className="row">
           <div className="col-sm col-md col-lg">
             <div className="row">
@@ -26,8 +26,8 @@ export default function About(){
             <img
               src={portfolioPic}
               alt="professional"
-              height="100"
-              width="100"
+              height="200"
+              width="150"
               className="img-fluid rounded imgPro"
             />
           </div>
