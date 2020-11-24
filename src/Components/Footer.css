@@ -18,6 +18,7 @@
 
     
   }
+  /* styling effects for footer when hover is initiated */
   .seattleImg:hover {
     background-image: url("../utils/repImg/Kc.jpg");
     height: auto;

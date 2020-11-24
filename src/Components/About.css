@@ -1,42 +1,38 @@
 /* styles the about me section on home page  */
 section {
-  
-    background-image: url('../utils/repImg/woman_working.jpg');
-    color: purple;
-   max-width: 60%;
-   margin-left: 25%;
+  background-image: url("../utils/repImg/woman_working.jpg");
+  color: rgb(250, 249, 250);
+  max-width: 60%;
+  margin-left: 25%;
   border-radius: 10px;
   font-size: 20px;
- background-position: center;
- font-weight: 90px;
- 
-  }
-  
+  background-position: center;
+  font-weight: 90px;
+  padding: 40px;
+  padding-right: 20px;
+}
 
 /* aligns the content in About section vertically */
-  section, .row {
-    padding: 10px;
-  }
+.block {
+  padding: 10px;
+  background: rgba(150, 35, 165, 0.5);
+}
 
-  /* Styling on About component for professional head shot Image */
-  .imgPro {
-    padding-top: 20px;
-    height: 80%;
-    width: 40%;
-   margin: 10px 50px;
-     z-index: 1;
-    box-shadow:  30px 80px rgba(0, 0, 0, 0.3);
-
-  
-  }
-
-  section:hover {
-    background-image: url('../utils/repImg/beach\ \(1\).jpg');
-    transition: ease;
-    background-repeat: no-repeat;
-    color:  black;
-    font-family: "cursive";
-  
-    transition-duration: 2s;
-  }
-
+/* Styling on About component for professional head shot Image */
+.imgPro {
+  padding-top: 20px;
+  height: 80%;
+  width: 40%;
+  margin: 10px 40px;
+  z-index: 1;
+  box-shadow: 30px 80px rgba(0, 0, 0, 0.3);
+}
+/* effects to section about me after hover */
+section:hover {
+  background-image: url("../utils/repImg/beach\ \(1\).jpg");
+  transition: ease;
+  background-repeat: no-repeat;
+  color: rgb(252, 247, 247);
+  font-family: "cursive";
+  transition-duration: 2s;
+}

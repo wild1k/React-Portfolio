@@ -6,9 +6,8 @@ import "./projects.css";
 
 const Projects = () => {
   return (
- <>
-    <div className="mobile-responsive container">
-    
+    <>
+      <div className="mobile-responsive container">
         <h1>My Work</h1>
 
         <div className="row">
@@ -45,8 +44,7 @@ const Projects = () => {
               <button class="projBtn2">Code on Github</button>
             </a>
           </div>
-      
-        
+
           <div className="col-md col-sm d-flex justify-content-center projCont">
             <img
               src={quizPic}
@@ -54,29 +52,27 @@ const Projects = () => {
               height="300"
               width="350"
               className="imgSize img-fluid my-5 img-thumbnail imgCode"
-            />{''}
+            />
+            {""}
             <a
               href="https://wild1k.github.io/quiz-Api-s-Homework/"
               target="#blank"
             >
               <button className="projBtn">Deployed Link</button>
             </a>
-          <a
-            href="https://github.com/wild1k/quiz-Api-s-Homework"
-            target="#blank"
-          >
-            <button class="projBtn2">Code on Github</button>
-          </a>
+            <a
+              href="https://github.com/wild1k/quiz-Api-s-Homework"
+              target="#blank"
+            >
+              <button class="projBtn2">Code on Github</button>
+            </a>
           </div>
-         </div>
-
-
-</div>
-
-<div className="emptyDiv">
-  <br/>
-</div>
-</>
+        </div>
+      </div>
+      <div className="emptyDiv">
+        <br />
+      </div>
+    </>
   );
 };
 
